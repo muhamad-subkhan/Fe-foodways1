@@ -1,32 +1,23 @@
-import Ramli from '../Assets/Image/User/kucing.jpg';
+import Image from '../Assets/Image/User/Rectangle 12.png';
 import Me from '../Assets/Image/User/me.png';
 
 export const Users = [
     {
-        email: 'admin@mail.com',
-        password: 'admin',
-        fullname: 'Ramli',
+        email: 'coba@mail.com',
+        password: '123',
+        fullname: 'Tatang',
         aslogin: 'partner',
         gender: 'male',
         phone: '081x xxxx xxxx',
-        image: Ramli,
+        image: Image,
     },
     {
-        email: 'user@mail.com',
-        password: 'user',
-        fullname: 'Me',
+        email: 'coba1@mail.com',
+        password: '123',
+        fullname: 'Subagyo',
         aslogin: 'user',
         gender: 'male',
         phone: '081x xxxx xxxx',
         image: Me,
-    },
-    {
-        email: 'user1@mail.com',
-        password: 'user1',
-        fullname: 'Me1',
-        aslogin: 'user',
-        gender: 'female',
-        phone: '081x xxxx xxxx',
-        image: Me,
-    },
+    }
 ];

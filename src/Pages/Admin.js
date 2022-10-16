@@ -1,12 +1,12 @@
-import React from 'react'
-import Incometransaction from '../Components/Income-transaction';
+import React from "react";
+import Incometransaction from "../Components/Income-transaction";
 
 function Admin() {
-    return (
-        <>
-            <Incometransaction />   
-        </>
-    )
+  return (
+    <>
+      <Incometransaction />
+    </>
+  );
 }
 
 export default Admin;
